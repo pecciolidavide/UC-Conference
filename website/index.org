@@ -1,0 +1,39 @@
+#+title: Conferenza "Ultimo Cena" - 17 agosto 2026
+
+#+options: toc:nil num:nil html-postamble:nil
+
+#+HTML_HEAD: <style type="text/css">
+#+HTML_HEAD:   body { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; background-color: #f4f5f7; color: #2b2b2b; line-height: 1.6; margin: 0; padding: 20px; }
+#+HTML_HEAD:   #content { max-width: 800px; margin: 20px auto; background-color: #ffffff; padding: 50px 70px; border: 1px solid #e2e8f0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
+#+HTML_HEAD:   h1.title { color: #1a365d; border-bottom: 2px solid #1a365d; padding-bottom: 10px; margin-bottom: 40px; font-variant: small-caps; text-align: center; }
+#+HTML_HEAD:   h2 { color: #2a4365; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; margin-top: 40px; font-family: 'Georgia', serif; }
+#+HTML_HEAD:   h3 { color: #2d3748; margin-top: 30px; font-size: 1.2em; }
+#+HTML_HEAD:   p { text-align: justify; color: #333333; margin-top: 10px; }
+#+HTML_HEAD:   ul.org-ul { list-style-type: square; padding-left: 20px; color: #2b2b2b; }
+#+HTML_HEAD:   ul.org-ul li { margin-bottom: 12px; }
+#+HTML_HEAD:   b { color: #1a365d; }
+#+HTML_HEAD:   i { color: #4a5568; }
+#+HTML_HEAD:   .outline-text-3 p i { font-style: italic; color: #718096; display: block; margin-bottom: 15px; border-left: 3px solid #cbd5e0; padding-left: 10px; }
+#+HTML_HEAD: </style>
+
+* Relatori
+
+- Simone *Albano* (Politecnico di Torino, Ingegneria Elettronica)
+- Noemi *Castelluccia* (Università degli studi di Torino, /Chimica Clinica, Forense e dello Sport/)
+- Giulio *Olivero* (Università degli studi di Milano, /Informatica/)
+- Davide *Peccioli* (Università degli studi di Torino, /Matematica/)
+- Federico *Sancandi* (Politecnico di Torino, /Ingegneria Aereospaziale/)
+
+* Interventi
+
+** Semiconductor laser's numerical modeling
+
+/by Simone Albano/
+
+TBA
+
+** Teorema di Compattezza e Numeri Reali non-standard
+
+/by Davide Peccioli/
+
+L'intervento esplora una domanda apparentemente semplice: esiste un numero positivo che sia strettamente minore di tutti gli altri numeri reali positivi?

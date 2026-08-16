@@ -1,0 +1,129 @@
+% Created 2026-08-16 Sun 19:32
+% Intended LaTeX compiler: pdflatex
+\documentclass[babel]{beamer}
+
+\usepackage[hyperref]{biblatex}
+\addbibresource{~/Documents/GLOBAL_ORG/org/roam/bib/master.bib}
+\institute[]{Università degli Studi di Torino}
+\input{header_beamer.tex}
+\renewcommand{\href}[2]{#2}
+\usetheme{CambridgeUS}
+\usecolortheme{spruce}
+\usefonttheme{professionalfonts}
+\author{Davide Peccioli}
+\date{17 agosto 2026}
+\title[Compattezza e \(\null^*\R\)]{Teorema di Compattezza e Numeri Reali non-standard}
+\begin{document}
+
+\maketitle
+\begin{frame}[label={sec:org0f88330}]{Domanda}
+Consideriamo i numeri reali \(\R\).
+
+\begin{itemize}
+\item Esiste un numero positivo \(\varepsilon\) che sia \alert{minore} di tutti gli altri numeri reali positivi?
+\item La risposta è \alert{no}. Ma possiamo provare a costruire un insieme più grande di \(\R\), chiamato \(\null^{*}{\R}\), in cui questo è vero.
+\end{itemize}
+
+Questo è il nostro obiettivo, e per raggiungerlo avremo bisogno del \alert{Teorema di Compattezza}.
+\end{frame}
+\begin{frame}[label={sec:orgb036e09}]{Teorema di Compattezza}
+\begin{block}{Teorema}
+Sia \(T\) una teoria finitamente soddisfacibile. Allora \(T\) è soddisfacibile.
+\end{block}
+Per capire questo teorema, è necessario spiegare cosa siano:
+\begin{itemize}
+\item una teoria;
+\item una teoria \emph{soddisfacibile};
+\item una teoria \emph{finitamente} soddisfacibile.
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgf9283c5}]{Partiamo dall'inizio}
+\begin{block}{Esempio}
+Consideriamo la frase
+\begin{equation*}
+P:\qquad \text{``Tra due numeri, ne esiste sempre uno in mezzo.''}
+\end{equation*}
+Questa frase \alert{è vera}?
+\end{block}
+La risposta è: \alert{dipende}.
+
+Il compito della logica è proprio formalizzare la verità.
+\end{frame}
+\begin{frame}[label={sec:org17c96ba}]{\null}
+Ricordiamo che
+\begin{align*}
+\N &= \set{0,1,2,\dots,}\\
+\Z &= \set{\dots, -3,-2,-1,0,1,2,\dots}\\
+\Q &= \set{-\frac{1}{4}, \dots ,\frac{1}{2}, 0, 1, \frac{3}{2}, \dots}.
+\end{align*}
+
+Svisceriamo l'esempio di prima, e consideriamo \(P\) ``dentro'' \(\N, \Z\) e \(\Q\).
+\begin{itemize}
+\item In \(\N\) e \(\Z\), \(P\) è \alert{falsa}:
+\begin{equation*}
+  1\text{ e } 2,\qquad -1\text{ e } 0, \qquad \dots
+\end{equation*}
+\item In \(\Q\), \(P\) è \alert{vera}.
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgf3dc7e7}]{Modelli ed enunciati}
+Questa cosa si riassume scrivendo che
+\begin{equation*}
+\N \nvDash P,\qquad \Z\nvDash P, \qquad \Q\vDash P
+\end{equation*}
+dove ``\(\vDash\)'' si legge ``modella''.
+
+\begin{itemize}
+\item \(\N, \Z\) e \(\Q\), che sono \alert{il luogo in cui ha senso parlare di verità}, si chiamano ``modelli'' o ``strutture''.
+\item La \(P\) di prima, invece, si chiama \alert{enunciato}.
+
+Un enuciato è una affermazione che può essere vera o falsa \alert{dentro ad un modello}.
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:org64a228a}]{Teoria}
+\begin{block}{Definizione}
+Una \alert{teoria} è un insieme di enunciati.
+\end{block}
+\begin{block}{Definizione}
+Una \alert{teoria soddisfacibile} è un insieme di enunciati \alert{tutti veri dentro ad un modello \(\mathcal{M}\)}.
+\end{block}
+\begin{block}{Definizione}
+Una teoria si dice \alert{finitamente soddisfacibile} se ogni suo sottoinsieme finito è soddisfacibile.
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org73b7e3e}]{Teorema di Compattezza}
+A questo punto possiamo enunciare nuovamente il:
+\begin{block}{Teorema}
+Sia \(T\) una teoria finitamente soddisfacibile. Allora \(T\) è soddisfacibile.
+\end{block}
+Dimostrare questo teorema è un arduo compito, non adatto a questa serata. Però possiamo \alert{utilizzarlo} per costruire, ``a mano'', il nostro \(\null^{*} \R\).
+\end{frame}
+\begin{frame}[label={sec:org84c2832}]{Teoria per i reali non-standard}
+Consideriamo la teoria \(T\), composta da ``tutti'' gli \alert{enunciati veri in \(\R\)}.
+
+Dentro \(T\) ci sono cose come:
+\begin{itemize}
+\item \(1+1=2\);
+\item ``Ci sono infiniti numeri'';
+\item ``Tra due numeri ne esiste sempre uno in mezzo'';
+\item \ldots{}
+\end{itemize}
+
+Se consideriamo un simbolo in più, chiamato, ad esempio, \(\varepsilon\), aggiungiamo a \(T\) una quantità infinita di enunciati:
+\begin{equation*}
+0 < \varepsilon < 1, \quad 0 < \varepsilon < 0.0012324, \quad 0 < \varepsilon < \pi, \quad \dots
+\end{equation*}
+\end{frame}
+\begin{frame}[label={sec:org989b470}]{La teoria è soddisfacibile?}
+A questo punto, la teoria che abbiamo costruito, è finitamente soddisfacibile?
+
+\alert{Sì}, e per ciascun sottoinsieme finito una struttura adatta è proprio \(\R\).
+\end{frame}
+\begin{frame}[label={sec:orgc7ddf91}]{Concludendo\ldots{}}
+È quindi possibile applicare il \alert{Teorema di Compattezza}: poiché la teoria è finitamente soddisfacibile, allora è anche \alert{soddisfacibile}.
+
+Esiste quindi una struttura che rende vera \alert{tutti gli enunciati della teoria contemporaneamente}.
+
+Questa struttura è proprio \(\null^{*} \R\). Quell'\(\varepsilon\) che abbiamo aggiunto sarà l'elemento positivo più piccolo di \alert{tutti gli altri elementi positivi}.
+\end{frame}
+\end{document}

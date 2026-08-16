@@ -1,0 +1,146 @@
+#+title: Teorema di Compattezza e Numeri Reali non-standard
+#+date: 17 agosto 2026
+#+author: Davide Peccioli
+
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [babel]
+#+BEAMER_THEME: CambridgeUS
+#+BEAMER_COLOR_THEME: spruce
+#+BEAMER_FONT_THEME: professionalfonts
+#+LaTeX_HEADER: \institute[]{Università degli Studi di Torino}
+#+LaTeX_HEADER: \input{header_beamer.tex}
+#+OPTIONS: toc:nil
+#+LATEX_HEADER: \renewcommand{\href}[2]{#2}
+
+* Domanda
+
+Consideriamo i numeri reali \(\R\).
+
+- Esiste un numero positivo \(\varepsilon\) che sia *minore* di tutti gli altri numeri reali positivi?
+- La risposta è *no*. Ma possiamo provare a costruire un insieme più grande di \(\R\), chiamato \(\null^{*}{\R}\), in cui questo è vero.
+
+Questo è il nostro obiettivo, e per raggiungerlo avremo bisogno del *Teorema di Compattezza*.
+
+* Teorema di Compattezza
+
+** Teorema
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+
+Sia \(T\) una teoria finitamente soddisfacibile. Allora \(T\) è soddisfacibile.
+
+** Altro :ignore:
+
+Per capire questo teorema, è necessario spiegare cosa siano:
+- una teoria;
+- una teoria /soddisfacibile/;
+- una teoria /finitamente/ soddisfacibile.
+
+* Partiamo dall'inizio
+
+** Esempio
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+
+Consideriamo la frase
+\begin{equation*}
+P:\qquad \text{``Tra due numeri, ne esiste sempre uno in mezzo.''}
+\end{equation*}
+Questa frase *è vera*?
+
+** Risposta :ignore:
+
+La risposta è: *dipende*.
+
+Il compito della logica è proprio formalizzare la verità.
+
+
+* \null
+
+Ricordiamo che
+\begin{align*}
+\N &= \set{0,1,2,\dots,}\\
+\Z &= \set{\dots, -3,-2,-1,0,1,2,\dots}\\
+\Q &= \set{-\frac{1}{4}, \dots ,\frac{1}{2}, 0, 1, \frac{3}{2}, \dots}.
+\end{align*}
+
+Svisceriamo l'esempio di prima, e consideriamo \(P\) "dentro" \(\N, \Z\) e \(\Q\).
+- In \(\N\) e \(\Z\), \(P\) è *falsa*:
+  \begin{equation*}
+	1\text{ e } 2,\qquad -1\text{ e } 0, \qquad \dots
+  \end{equation*}
+- In \(\Q\), \(P\) è *vera*.
+
+* Modelli ed enunciati
+
+Questa cosa si riassume scrivendo che
+\begin{equation*}
+\N \nvDash P,\qquad \Z\nvDash P, \qquad \Q\vDash P
+\end{equation*}
+dove "\(\vDash\)" si legge "modella".
+
+- \(\N, \Z\) e \(\Q\), che sono *il luogo in cui ha senso parlare di verità*, si chiamano "modelli" o "strutture".
+- La \(P\) di prima, invece, si chiama *enunciato*.
+
+  Un enuciato è una affermazione che può essere vera o falsa *dentro ad un modello*.
+
+* Teoria
+
+** Definizione
+
+Una *teoria* è un insieme di enunciati.
+
+** Definizione
+
+Una *teoria soddisfacibile* è un insieme di enunciati *tutti veri dentro ad un modello \(\mathcal{M}\)*.
+
+** Definizione
+
+Una teoria si dice *finitamente soddisfacibile* se ogni suo sottoinsieme finito è soddisfacibile.
+
+* Teorema di Compattezza
+
+A questo punto possiamo enunciare nuovamente il:
+
+** Teorema
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+
+Sia \(T\) una teoria finitamente soddisfacibile. Allora \(T\) è soddisfacibile.
+
+** segue :ignore:
+
+Dimostrare questo teorema è un arduo compito, non adatto a questa serata. Però possiamo *utilizzarlo* per costruire, "a mano", il nostro \(\null^{*} \R\).
+
+* Teoria per i reali non-standard
+
+Consideriamo la teoria \(T\), composta da "tutti" gli *enunciati veri in \(\R\)*.
+
+Dentro \(T\) ci sono cose come:
+- \(1+1=2\);
+- "Ci sono infiniti numeri";
+- "Tra due numeri ne esiste sempre uno in mezzo";
+- ...
+
+Se consideriamo un simbolo in più, chiamato, ad esempio, \(\varepsilon\), aggiungiamo a \(T\) una quantità infinita di enunciati:
+\begin{equation*}
+0 < \varepsilon < 1, \quad 0 < \varepsilon < 0.0012324, \quad 0 < \varepsilon < \pi, \quad \dots
+\end{equation*}
+
+* La teoria è soddisfacibile?
+
+A questo punto, la teoria che abbiamo costruito, è finitamente soddisfacibile?
+
+*Sì*, e per ciascun sottoinsieme finito una struttura adatta è proprio \(\R\).
+
+* Concludendo...
+
+È quindi possibile applicare il *Teorema di Compattezza*: poiché la teoria è finitamente soddisfacibile, allora è anche *soddisfacibile*.
+
+Esiste quindi una struttura che rende vera *tutti gli enunciati della teoria contemporaneamente*.
+
+Questa struttura è proprio \(\null^{*} \R\). Quell'\(\varepsilon\) che abbiamo aggiunto sarà l'elemento positivo più piccolo di *tutti gli altri elementi positivi*.
