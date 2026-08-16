@@ -18,7 +18,7 @@
 
 * Relatori
 
-- Simone *Albano* (Politecnico di Torino, Ingegneria Elettronica)
+- Simone *Albano* (Politecnico di Torino, /Ingegneria Elettronica/)
 - Noemi *Castelluccia* (Università degli studi di Torino, /Chimica Clinica, Forense e dello Sport/)
 - Giulio *Olivero* (Università degli studi di Milano, /Informatica/)
 - Davide *Peccioli* (Università degli studi di Torino, /Matematica/)
