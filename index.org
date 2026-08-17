@@ -38,6 +38,12 @@ TBA
 
 TBA
 
+** Sistema origami per recupero di detriti spaziali
+
+/by Federico Sancandi/
+
+Una breve introduzione della mia tesi magstrale, che mostra anche i programmi usati per questo tipo di progettazione.
+
 ** Teorema di Compattezza e Numeri Reali non-standard
 
 /by Davide Peccioli/
