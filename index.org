@@ -19,30 +19,43 @@
 * Relatori
 
 - Simone *Albano* (Politecnico di Torino, /Ingegneria Elettronica/)
-- Noemi *Castelluccia* (Università degli studi di Torino, /Chimica Clinica, Forense e dello Sport/)
-- Giulio *Olivero* (Università degli studi di Milano, /Informatica/)
-- Davide *Peccioli* (Università degli studi di Torino, /Matematica/)
+- Lucrezia *Bosso* (Università degli Studi di Torino, /Medicina e Chirurgia/)
+- Noemi *Castelluccia* (Università degli Studi di Torino, /Chimica Clinica, Forense e dello Sport/)
+- Giulio *Olivero* (Università degli Studi di Milano, /Informatica/)
+- Davide *Peccioli* (Università degli Studi di Torino, /Matematica/)
 - Federico *Sancandi* (Politecnico di Torino, /Ingegneria Aereospaziale/)
 
 * Interventi
-
-** Semiconductor laser's numerical modeling
-
-/by Simone Albano/
-
-TBA
-
-** Interpretazione di evidenze tossicologiche forensi post-mortem
-
-/by Noemi Castelluccia/
-
-TBA
 
 ** Sistema origami per recupero di detriti spaziali
 
 /by Federico Sancandi/
 
 Una breve introduzione della mia tesi magstrale, che mostra anche i programmi usati per questo tipo di progettazione.
+
+** Semiconductor laser's numerical modeling
+
+/by Simone Albano/
+
+Dopo una breve introduzione alle principali classi di laser a semiconduttore attualmente disponibili sul mercato, viene introdotta l'equazione di Barkhausen, al fine di illustrare come la scelta dei parametri della cavità ottica influenzi la lunghezza d'onda di emissione del diodo laser, nonché il concetto di guadagno ad anello.
+
+** Anti Shazy Contro Quiz Show
+
+/by Giulio Olivero/
+
+Progettazione artistica e tecnica di un gioco a quiz come progetto pilota per una piattaforma on-line per la centralizzazione e portabilità ad altri quiz.
+
+** Nutrizione del neonato
+
+/by Lucrezia Bosso/
+
+Allattamento: funzionamento ed importanza della lattazione
+
+** Interpretazione di evidenze tossicologiche forensi post-mortem
+
+/by Noemi Castelluccia/
+
+TBA
 
 ** Teorema di Compattezza e Numeri Reali non-standard
 
